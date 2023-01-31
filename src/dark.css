@@ -1,0 +1,16 @@
+.App.dark{
+    background-color: #222;
+    color: lightgray;
+}
+.dark .table{
+    background-color: #222 ;
+}
+.dark .TableCell {
+    color: lightgray;
+}
+.dark .Navbar{
+    color: lightgray;
+}
+.dark .sidebar >*{
+    color: lightgray;
+}

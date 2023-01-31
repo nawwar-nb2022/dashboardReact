@@ -1,0 +1,25 @@
+this folder for toggle dark light mode 
+
+1) put this folder in the src folder off your project 
+
+
+2) drop  DarkModeContextProvider in the index.js file :
+
+  <React.StrictMode>
+ <DarkModeContextProvider> #
+    <App />
+ </DarkModeContextProvider> #
+  </React.StrictMode>
+
+3) in the main file app.js add the following line :
+     const {darkMode} = useContext(DarkModeContext)  ---after import useContext and the DarkModeContext
+
+4) finally to change between theme 
+  go page that has the button you want to change theme using it 
+  add ->   const {dispatch} = useContext(DarkModeContext)  ---after import useContext and the DarkModeContext
+  then add to the button onClick function  -> onClick={()=>dispatch({type:"light"})}
+  @@ type change between light and dark and toggle depend on the way you want to use the button in
+
+
+
+  # using to see what is the change in the file after add our provider

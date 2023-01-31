@@ -1,0 +1,83 @@
+.new{
+    width: 100%;
+    display: flex;
+}
+.New_container{
+    flex:6;
+}
+.SideBarContAiner{
+    flex:1;
+}
+.NEw_top p{
+    box-shadow: 0px 5px 10px rgba(0,0,0,.2);
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: lightblue;
+    margin: 20px;
+}
+.NEw_bottom{
+    display: flex;
+    box-shadow: 0px 5px 10px rgba(0,0,0,.2);
+    margin: 20px;
+    padding: 0 10px;
+}
+.new_bottom_Left{
+    flex: 1;
+    text-align: center;
+    margin-top: 5%;
+}
+.new_bottom_Left img{
+    border-radius: 50%;
+    object-fit:cover;
+    width: 100px;
+    height: 100px;
+}
+
+.new_bottom_Right{
+    flex: 2;
+
+}
+form{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+}
+form .input_container{
+    width: 40%;
+}
+form .input_container input{
+    width: 100%;
+    border: none;
+    border-bottom:1px solid gray;
+    outline: none;
+    margin: 10px 0;
+    padding:  5px 10px;
+    transition: .4s all ;
+}
+form .input_container input:focus{
+    box-shadow: 1px 1px 10px lightblue;
+    border-radius: 10px;
+}
+label{
+display: flex;
+align-items: center;
+gap: 10px;
+}
+.icon{
+    cursor: pointer;
+}
+
+ .new_button{
+    border:none;
+    outline: none;
+    background-color: teal;
+    width: 100px;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 5px 0;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+}

@@ -1,0 +1,36 @@
+/* 
+background : rgb(62,255,218);hex #3effda
+border : rgb (0,190,126)
+*/
+
+.home{
+    display: flex;
+    flex-direction: row;
+}
+.homeContainer{
+    flex:6
+}
+
+.Widgets{
+    display: flex;  
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+.charts{
+    display: flex;
+    gap: 20px;
+    padding: 5px 20px;
+
+}
+.list-container{
+    box-shadow: 0px 5px 10px  rgba(0,0,0,0.56);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.listTitle{
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: darkcyan;
+}

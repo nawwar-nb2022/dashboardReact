@@ -1,0 +1,53 @@
+.widget{
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    padding: 10px;
+    box-shadow: 0px 2px 10px  rgba(0,0,0,0.56);
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-top: 20px;
+    min-height: 120px;
+}
+.title-w{
+    font-size: 20px;
+    color: lightgray;
+    display: flex;
+    padding-top: 0px;
+    
+}
+.left, .right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.counter-s{
+    font-size: 20px;
+    font-weight: bold;
+    background-color: transparent;
+    color: black;
+}
+.link{
+    border-bottom: 1px solid lightgray;
+    width: max-content;
+}
+.percentage{
+    display: flex;
+}
+.person{
+    display: flex;
+    align-self: flex-end;
+    padding-left: 5px;
+}
+.positive{
+    color: green
+}
+.negative{
+    color: red;
+}
+.person:hover{
+    background-color: darkcyan;
+    border-radius: 10%;
+    cursor: pointer;
+}
